@@ -59,7 +59,7 @@
                 android:scaleType="fitXY"
                 tools:src="@drawable/page0" />
 
-            <TextView
+            n<TextView
                 android:id="@+id/storyTextView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
