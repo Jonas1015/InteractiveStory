@@ -7,10 +7,10 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.nocturnalcodes.interactivestory.R;
+import com.nocturnalcodes.interactivestory.model.Page;
 
 public class StoryActivity extends AppCompatActivity {
     public static final String TAG = StoryActivity.class.getSimpleName();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +21,5 @@ public class StoryActivity extends AppCompatActivity {
         if(name == null || name.isEmpty()){
             name = "Friend";
         }
-
-        Toast.makeText(this, name, Toast.LENGTH_SHORT).show();
     }
 }
