@@ -12,6 +12,7 @@ import android.widget.EditText;
 import com.nocturnalcodes.interactivestory.R;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String TAG = MainActivity.class.getSimpleName();
     private EditText nameEditText;
     private Button startButton;
     @Override

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 public class InteractiveStoryApplication extends Application {
+    public static final String TAG = InteractiveStoryApplication.class.getSimpleName();
     @Override
     public void onCreate() {
         super.onCreate();

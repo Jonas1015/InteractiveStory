@@ -9,6 +9,7 @@ import android.widget.Toast;
 import com.nocturnalcodes.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
+    public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
