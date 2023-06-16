@@ -1,4 +1,4 @@
-package com.nocturnalcodes.interactivestory;
+package com.nocturnalcodes.interactivestory.ui;
 
 import android.app.Activity;
 import android.app.Application;

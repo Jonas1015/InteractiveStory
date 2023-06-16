@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <ImageView
         android:id="@+id/titleImageView"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
         android:src="@drawable/main_title"
-        android:contentDescription="Signals from Mars title image"
+        android:contentDescription="@string/signals_from_mars_title_image"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -25,7 +25,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="START YOUR ADVENTURE"
+        android:text="@string/start_your_adventure"
         app:cornerRadius="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,13 +38,13 @@
         android:layout_height="50dp"
         android:layout_marginBottom="88dp"
         android:background="@color/white"
-        android:capitalize="words"
         android:ems="10"
-        android:hint="Enter your name"
+        android:hint="@string/enter_your_name"
         android:inputType="text|textCapWords"
         android:maxLength="30"
         android:textColor="#070707"
         android:textColorHint="#0B0A0A"
+        android:autofillHints="name"
         app:layout_constraintBottom_toTopOf="@+id/startButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
