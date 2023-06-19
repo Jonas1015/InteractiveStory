@@ -33,6 +33,12 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(listener);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        nameEditText.setText("");
+    }
+
     private void startStory(String name) {
         Intent intent = new Intent(this, StoryActivity.class);
         Resources resources = getResources();
